@@ -37,3 +37,14 @@ $routes->get('/personas/buscar', 'PersonaController::buscar');
 $routes->get('api/personas/buscardni/(:num)', 'PersonaController::searchByDNI/$1');
 $routes->get('api/ubigeo/provincias/(:num)', 'ProvinciaController::getProvinciasByDepartamento/$1');
 $routes->get('api/ubigeo/distritos/(:num)', 'ProvinciaController::getDistritosByProvincia/$1');
+
+// RUTA PARA RECURSOS
+// Recursos
+$routes->get('recursos', 'RecursoController::index');
+$routes->get('recursos/crear', 'RecursoController::crear');
+$routes->post('recursos/store', 'RecursoController::store');
+$routes->get('recursos/eliminar/(:num)', 'RecursoController::eliminar/$1');
+
+
+
+
