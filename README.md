@@ -1,4 +1,4 @@
-# 📚 Proyecto Biblioteca - CodeIgniter 4
+# 📚 Proyecto Biblioteca 
 
 Este proyecto implementa un sistema de gestión de **recursos de biblioteca** usando **CodeIgniter 4** y **MySQL**.  
 Incluye la administración de **categorías, subcategorías, editoriales y recursos**.
